@@ -1,7 +1,7 @@
 from .models import ATAcontent
 from django.shortcuts import render
 from dotenv import load_dotenv
-import fitz, openai, os
+import fitz, os
 import google.generativeai as genai
 
 load_dotenv()
