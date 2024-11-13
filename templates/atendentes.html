@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomes dos Atendentes</title>
+</head>
+<body>
+    <h1>Nomes dos Atendentes</h1>
+    <ul>
+        {% for key, nome in atendentes.items %}
+            <li>{{ nome }}</li>
+        {% empty %}
+            <p>Nenhum atendente encontrado.</p>
+        {% endfor %}
+    </ul>
+</body>
+</html>
