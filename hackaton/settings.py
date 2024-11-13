@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'read_audio',
-    "read_ata"
+    'read_ata',
+    'home'
 ]
 
 MIDDLEWARE = [
