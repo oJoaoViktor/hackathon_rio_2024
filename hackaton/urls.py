@@ -6,4 +6,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
     path('', include('read_audio.urls')),
+    path("", include("read_ata.urls")),
 ]
