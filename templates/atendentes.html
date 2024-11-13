@@ -8,7 +8,7 @@
 <body>
     <h1>Nomes dos Atendentes</h1>
     <ul>
-        {% for key, nome in atendentes.items %}
+        {% for nome in atendentes %}
             <li>{{ nome }}</li>
         {% empty %}
             <p>Nenhum atendente encontrado.</p>

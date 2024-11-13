@@ -1,0 +1,6 @@
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <label for="pdf_file">Selecione um PDF:</label>
+    <input type="file" name="pdf_file" id="pdf_file">
+    <button type="submit">Upload</button>
+</form>
